@@ -34,7 +34,7 @@ def process_multiple_texts(texts):
     return results
 
 
-@app.route('/extract', methods=['POST'])
+@app.route('items-pdf/extract', methods=['POST'])
 def extract():
     try:
         data = request.get_json()
